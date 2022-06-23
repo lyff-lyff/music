@@ -18,7 +18,7 @@ let play_pause=document.querySelector('.play-pause'),
 // 专辑名数组
 let albums=['Sakura Tears','洪荒之力','忘川彼岸','Way Back Home','起风了'];
 // 歌曲信息数组
-let track_names=['櫻花淚 櫻花淚 - Sakura Tears','#Lov3 #Ngẫu Hứng-Hoaprox','古风dj - 忘川彼岸','SHAUN - Way Back Home','买辣椒也用券 - 起风了'];
+let track_names=['櫻花淚-Sakura Tears','#Lov3 #Ngẫu Hứng-Hoaprox','古风dj - 忘川彼岸','SHAUN - Way Back Home','买辣椒也用券 - 起风了'];
 
 // 定义变量
 let progress_t, //鼠标在进度条上悬停的位置
