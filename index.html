@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>欢迎登录</title>
 <!--  <link rel="stylesheet" type="text/css" href="./css/login.css"/>-->
+
   <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
   <link rel="stylesheet" type="text/css" href="1411.css"/>
   <link rel="stylesheet" href="./fonts/css/font-awesome.css">
@@ -78,7 +81,7 @@
       $img.eq(cur).fadeIn(500).siblings().hide();
       cur++;
       cur = cur >= $img.length ? 0:cur;
-      auto=setTimeout(lunbo,4000);
+      auto=setTimeout(lunbo,12000);
       if (cur==7)
       {
         cur=0;
